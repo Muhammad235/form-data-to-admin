@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+    .message-header{
+        display: none;
+    }
+
+    .box, .box-satus, .image{
+        border-bottom: 1px rgba(0, 0, 0, 0.5) solid;
+    }
+    
+    .box-satus{
+        padding: 10px;
+    }
+
+  }
+
+  /* message page */
+.message-table{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.box-satus{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
